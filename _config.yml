@@ -1,15 +1,15 @@
 # Site settings
-title: houtao | my hometown, my root
-description: '我的故鄉，我的根。'
-keywords: '後套傳奇'
-url: 'https://je-pense.github.io/houtao'
+title: 往事如煙 | 我的故事
+description: '往事回憶，意味著什麼？是漸漸老去？還是行將就木？'
+keywords: '往事回憶'
+url: 'https://je-pense.github.io/wangshihuiyi'
 author:
   name: '阿甘'
   email: 'winwinsfu@gmail.com'
   url: 'https://je-pense.github.io/'
 
 # Build settings
-baseurl: /houtao # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /wangshihuiyi # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
