@@ -2,14 +2,14 @@
 title: 往事如煙 | 我的故事
 description: '往事回憶，意味著什麼？是漸漸老去？還是行將就木？'
 keywords: '往事回憶'
-url: 'https://je-pense.github.io/wangshihuiyi'
+url: 'https://je-pense.github.io/wangshiruyan'
 author:
   name: '阿甘'
   email: 'winwinsfu@gmail.com'
   url: 'https://je-pense.github.io/'
 
 # Build settings
-baseurl: /wangshihuiyi # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /wangshiruyan # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
