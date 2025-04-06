@@ -1,0 +1,39 @@
+# Site settings
+title: houtao | my hometown, my root
+description: '我的故鄉，我的根。'
+keywords: '後套傳奇'
+url: 'https://je-pense.github.io/houtao'
+author:
+  name: '阿甘'
+  email: 'winwinsfu@gmail.com'
+  url: 'https://je-pense.github.io/'
+
+# Build settings
+baseurl: /houtao # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: '1.0'
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
